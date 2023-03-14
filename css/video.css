@@ -1,0 +1,158 @@
+/* FONDO VIDEO */
+.contenido__video{
+    background: #7DD174;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    filter:brightness(.6) ;
+    -webkit-filter:brightness(.6) ;
+}
+   
+   /* Estilos para la etiqueta "video" con la calse (.video)  */
+   .video{
+    position: absolute;
+    max-width: 300%;
+    width: 100%;
+   }
+   
+   @media(max-width: 900px){
+    .video{
+     width: 150%;
+    }
+   }
+   @media(max-width: 650px){
+    .video{
+     width: 280%;
+    }
+   }
+   @media(max-width: 480px){
+    .video{ 
+     width: 300%;
+    }
+   }
+   
+   nav.redes{
+    
+    margin-left: 340px;
+  
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+a.r{
+      
+      padding-left: 30px;
+  }
+
+a.r:hover{
+    animation: backInLeft;
+    animation-duration: .3s;
+}
+
+
+@media only screen and (max-width:720px){
+
+    nav.redes{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px; 
+        border-radius: 30px;
+
+    }
+    
+    ul {
+        display: inline-block;
+        margin:0;
+        padding:0;
+        text-align: center;
+        list-style:none;                
+    }
+    ul  li {
+        padding: 2px 5px;               
+    }
+
+}
+
+
+
+
+  
+
+  a.nav-link{
+    transition: 1.25s;
+    -webkit-transition: 1.25s;
+    -moz-transition: 1.25s;
+    -ms-transition: 1.25s;
+    -o-transition: 1.25s;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #f5f5f5;
+}
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(47, 0, 255); 
+    background-image: -webkit-linear-gradient(90deg,rgba(12, 31, 141, 0.2) 25%,transparent 25%,transparent 50%,rgba(255, 255, 255, 0.2) 50%rgba(255, 255, 255, 0.2)) 75%,transparent 75%,transparent)
+}
+
+a.redes{
+    margin-left: 30px;
+    color: #676c70;
+}
+
+a.redes:hover{
+    color: #F5F5F5;
+    transition:ease-in;
+    animation-duration: .5s;
+    -webkit-transition:ease-in;
+    -moz-transition:ease-in;
+    -ms-transition:ease-in;
+    -o-transition:ease-in;
+}
+
+
+p.contacto{
+
+    color: #f5f5f5;
+
+}
+
+a.email{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.style{
+    text-align: center;
+}
+
+img.imgproy{
+
+}
+div.card2{
+   width: 19.5rem;
+}
+@media only screen and (max-width: 720px){
+
+
+
+    div.card2{
+        width: 17rem;
+        height: 141px;
+    }
+
+}
